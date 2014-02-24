@@ -24,7 +24,12 @@ public class ObjectUtils {
         var tmpRes:* = obj;
         for (var i:int = 0; i < aPath.length; i++) {
             if (tmpRes != null) {
-                tmpRes = tmpRes[aPath[i]];
+                if (typeof tmpRes != "object") {
+                    tmpRes = null;
+                    break;
+                } else {
+                    tmpRes = tmpRes[aPath[i]];
+                }
             } else {
                 break;
             }

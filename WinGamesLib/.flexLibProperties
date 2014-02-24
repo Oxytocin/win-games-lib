@@ -22,6 +22,8 @@
     <classEntry path="wgl.utils.display.IImageLoader"/>
     <classEntry path="wgl.core.arc.IARCContainer"/>
     <classEntry path="wgl.core.arc.ARCContainer"/>
+    <classEntry path="wgl.utils.events.MultipleEventListener"/>
+    <classEntry path="wgl.utils.events.Callback"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
