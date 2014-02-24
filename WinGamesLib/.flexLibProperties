@@ -20,6 +20,8 @@
     <classEntry path="wgl.utils.ObjectUtils"/>
     <classEntry path="wgl.utils.display.ARCBitmapData"/>
     <classEntry path="wgl.utils.display.IImageLoader"/>
+    <classEntry path="wgl.core.arc.IARCContainer"/>
+    <classEntry path="wgl.core.arc.ARCContainer"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

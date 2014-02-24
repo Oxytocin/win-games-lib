@@ -1,6 +1,9 @@
 package wgl.utils {
 import flash.desktop.NativeApplication;
 
+/**
+ * Auxiliary class which provides easy acces to the most frequently accessed values in AIR application descriptor XML file. 
+ */
 final public class AppDescriptor {
     public function AppDescriptor() {
         throw new Error("Can't instantiate a static class");

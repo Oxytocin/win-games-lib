@@ -47,16 +47,16 @@ public class ImageLoader implements IImageLoader {
     /**
      * <pre>
      * {
-	 * "id1" : 
-	 * {
-	 *     "loader" : {},
-	 *     "holders": []
-	 * },
-	 * "id2":
-	 * {
-	 *     "loader" : {},
-	 *     "holders": []
-	 * }
+     * "id1" : 
+     * {
+     *     "loader" : {},
+     *     "holders": []
+     * },
+     * "id2":
+     * {
+     *     "loader" : {},
+     *     "holders": []
+     * }
      * }
      * </pre> 
      */
